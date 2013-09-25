@@ -5,4 +5,6 @@ http.createServer(function (req, res) {
   res.end('Hello World\n'); // missing semi-colon will fail the build
 }).listen(1337, '127.0.0.1');
  
+
+// new comment
 console.log('Server running at http://127.0.0.1:1337/');
